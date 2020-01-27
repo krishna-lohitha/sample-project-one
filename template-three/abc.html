@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--- META TAGS ------>
+    <meta charset="UTF-8">
+    <meta name="description" content=" ">
+    <meta name="keywords" content=" ">
+    <meta name="author" content=" ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--- TITLE ----->
+    <title>NOXEN</title>
+
+    <!---- BOOTSTRAP CSS--->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!--- STYLE SHEETS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    
+
+    <!--- FONT ------>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i|Poppins:300,400,500,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+    <!--- FONT-AWESOME ------>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!--- HOVER --- CSS -->
+    <link href="./assets/css/hover-min.css" rel="stylesheet">
+
+    <!--- AOS-ANIMATION  CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    
+    <!--- CAROUSEL CSS -->
+    <link href="./assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="./assets/css/owl.theme.default.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!------BANNER-ONE -- START --------->
+    <div class="banner-one">
+        <div class="container">
+            <nav class="nav-one navbar navbar-expand-lg navbar-light bg-transparent">
+                <a class="navbar-brand" href="#">NOXEN<span>.</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="view_port">
+                <div class="cylon_eye">
+                    <img src="./assets/icons/Down_Arrow_Filled-512.png" class="arrow-img">
+                    <!--<i class="fas fa-arrows-alt-v"></i>-->
+                </div>
+            </div>
+
+            <!-- Rectangular switch -->
+
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+    <!------BANNER-ONE ---- END  ------------>
+
+    <!------BANNER---TWO ---- START --------->
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <h2>Fullscreen Overlay Nav Example</h2>
+    <p>Click on the element below to open the fullscreen overlay navigation menu.</p>
+    <p>In this example, the navigation menu will slide downwards from the top:</p>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+
+
+    <!------    BANNER---TWO ---- END --------->
+    <!------    BANNER --- THREE ---- START ------->
+    
+    <!------    BANNER --- THREE ---- END --------->
+    
+    <!------    BOOTSTRAP SCRIPT -------------->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <!--- CAROUSEL SCRIPT -->
+    <script src="assets/javascript/owl.carousel.js"></script>
+    
+    <!-- AOS ANIMATION  SCRIPT ------>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+    
+    
+</body>
+</html>
